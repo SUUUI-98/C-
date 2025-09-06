@@ -33,6 +33,7 @@ int main() {
     // sizeof(e[0]) -> e의 0번째 행 이므로 10 개 -> int(4) * 10 = 40 
     printf("%d %d %d %d", sizeof(f), sizeof(g), sizeof(h), sizeof(i));// 4 8 4 
     //*char은 문자형 포인터이기 때문에 저장된 값의 크기가 출력되는게 아닌 *char의 크기 자체가 출력됨 
+    //가리키는 값 "Hello" 의 크기가 이난 char 포인터 변수 i의 크기가 출력되는 것임 
 
     free(h); // h 할당 공간 해제 
 
